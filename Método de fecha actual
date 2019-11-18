@@ -1,0 +1,6 @@
+ public void FechaActual() {
+        String FechaUtilizar;
+        Date FechaLocal = new Date();
+        DateFormat f = new SimpleDateFormat("yyyy");
+        FechaUtilizar = f.format(FechaLocal);
+        AñoActual = Integer.parseInt(FechaUtilizar);
